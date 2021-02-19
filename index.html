@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/main.css">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 
   <!-- Responsividade -->
   <link rel="stylesheet" href="style/responsive.css">
@@ -14,7 +15,7 @@
   <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
   <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-  <title>NETFLIX CLONE</title>
+  <title>Netflix | Home</title>
 </head>
 
 <body>
@@ -44,12 +45,12 @@
           Assistam agora a nova temporada de House of Cards que está imperdível.</p>
 
         <div class="botoes">
-          <button role="button" class="botao">
+          <button onclick="redirect('https://www.youtube.com/watch?v=SvSkxBYuoQY')" role="button" class="botao">
             <i class="fas fa-play"></i>
             ASSISTIR AGORA
           </button>
 
-          <button role="button" class="botao">
+          <button onclick="redirect('https://www.themoviedb.org/tv/1425-house-of-cards?language=pt-BR')" role="button" class="botao">
             <i class="fas fa-info-circle"></i>
             MAIS INFORMAÇÕES
           </button>
@@ -59,6 +60,8 @@
   </main>
 
   <div class="carrosel-filmes">
+    <h3>Trending Now</h3>
+
     <div class="owl-carousel owl-theme">
       <div class="item">
         <img class="box-filme" src="img/mini1.jpg" alt="O Banner da série The Umbrella Academy"
@@ -108,6 +111,7 @@
   <script src="https://kit.fontawesome.com/132e273b73.js" crossorigin="anonymous"></script>
   <script src="js/owl/jquery.min.js"></script>
   <!-- Owl JS -->
+  <script src="https://raw.githubusercontent.com/jquery/jquery-mousewheel/master/jquery.mousewheel.min.js"></script>
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
 
