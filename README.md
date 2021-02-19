@@ -5,7 +5,11 @@
 
 > Projeto feito no Bootcamp Angular Developer da Avanade na Plataforma da Digital Innovation One
 
+### Screenshots
+
 <img alt="screenshot" src="img/screenshot.png" />
+
+<img align="center" alt="screenshot" src="img/screenshot2.png" />
 
 ## Author
 
