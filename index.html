@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+
+  <!-- Responsividade -->
+  <link rel="stylesheet" href="style/responsive.css">
+
+  <!-- Owl CSS -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+  <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img class="logo" src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="Netflix Logo">
+
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">
+          <small class="badge"><img
+              src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+              alt=""> SERIES</small> <br>
+          HOUSE OF CARDS
+        </h3>
+        <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.
+          Assistam agora a nova temporada de House of Cards que está imperdível.</p>
+
+        <div class="botoes">
+          <button role="button" class="botao">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+
+          <button role="button" class="botao">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/mini1.jpg" alt="O Banner da série The Umbrella Academy"
+          onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini2.jpg" alt="O Banner de Star Wars" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini3.jpg" alt="O Banner de Pokemon" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini4.jpg" alt="O Banner de Capitão América Guerra Civil"
+          onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini5.jpg" alt="O Banner de O Hobbit" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini6.jpg" alt="O Banner de Breaking Bad" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini7.jpg" alt="O Banner de Doctor House" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini8.jpg" alt="O Banner de Sobrenatural" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini9.jpg" alt="O Banner de SmallVille" onclick="detalhesFilme(this)">
+      </div>
+
+      <div class="item">
+        <img class="box-filme" src="img/mini10.jpg" alt="O Banner de Vingadores Guerra Infinita"
+          onclick="detalhesFilme(this)">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/132e273b73.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <!-- Owl JS -->
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
